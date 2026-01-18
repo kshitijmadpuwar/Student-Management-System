@@ -1,16 +1,22 @@
-# Student Management System (Spring Boot)
+# 🎓 Student Management System (Spring Boot)
 
 ## 📌 Description
-This is a Spring Boot based Student Management System project that allows to manage student records. It provides REST APIs for creating, updating, deleting and fetching student details.
+Student Management System is a Spring Boot based RESTful web application used to manage student records. It provides APIs to perform CRUD operations like creating, updating, deleting, and fetching student details.
+
+This project follows a layered architecture and demonstrates best practices in Spring Boot application development.
+
+---
 
 ## 🚀 Features
-- Add new student
-- Update student details
-- Delete student
-- Get student by ID
-- Get all students
-- Exception handling
-- Layered architecture (Controller, Service, Repository)
+- ➕ Add new student
+- ✏️ Update student details
+- ❌ Delete student
+- 🔍 Get student by ID
+- 📋 Get all students
+- ⚠️ Global exception handling
+- 🏗️ Layered architecture (Controller, Service, Repository)
+
+---
 
 ## 🛠️ Technologies Used
 - Java
@@ -20,9 +26,36 @@ This is a Spring Boot based Student Management System project that allows to man
 - MySQL
 - Maven
 
+---
+
 ## 📂 Project Structure
-- Controller layer
-- Service layer
-- Repository layer
-- Entity layer
-- Exception package
+- `controller` - Handles REST APIs
+- `service` - Business logic
+- `repository` - Database access
+- `entity` - JPA entities
+- `exception` - Custom exceptions and global exception handler
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository
+2. Import the project in Eclipse / IntelliJ
+3. Update `application.properties` with your MySQL username & password
+4. Run the main Spring Boot application
+5. Test APIs using Postman
+
+---
+
+## 📬 API Endpoints (Sample)
+
+- `POST /students` → Add student  
+- `GET /students/{id}` → Get student by ID  
+- `GET /students` → Get all students  
+- `PUT /students/{id}` → Update student  
+- `DELETE /students/{id}` → Delete student  
+
+---
+
+## 👨‍💻 Author
+**Kshitij Madpuwar**

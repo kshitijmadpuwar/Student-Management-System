@@ -1,33 +1,39 @@
-HELP.md
+# Maven / Java build output
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+build/
 
-### STS ###
-.apt_generated
+# Eclipse / STS
 .classpath
-.factorypath
 .project
-.settings
+.settings/
+.factorypath
 .springBeans
-.sts4-cache
+.sts4-cache/
+.apt_generated
 
-### IntelliJ IDEA ###
+# IntelliJ
 .idea
-*.iws
 *.iml
+*.iws
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# VS Code
 .vscode/
+
+# Logs
+*.log
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Archives
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar

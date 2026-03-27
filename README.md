@@ -1,53 +1,69 @@
 # 🎓 Student Management System (Spring Boot)
 
-## 📌 Description
-Student Management System is a Spring Boot based RESTful web application used to manage student records. It provides APIs to perform CRUD operations like creating, updating, deleting, and fetching student details.
-
-This project follows a layered architecture and demonstrates best practices in Spring Boot application development.
+## 📌 Overview
+This is a backend project built using Spring Boot to manage student records through REST APIs.  
+The main goal of this project was to understand how real-world backend applications are structured and how CRUD operations work with a database.
 
 ---
 
 ## 🚀 Features
-- ➕ Add new student
-- ✏️ Update student details
-- ❌ Delete student
-- 🔍 Get student by ID
-- 📋 Get all students
-- ⚠️ Global exception handling
-- 🏗️ Layered architecture (Controller, Service, Repository)
+- Add new student  
+- Update student details  
+- Delete student  
+- Fetch student by ID  
+- Fetch all students  
+- Global exception handling  
+- Layered architecture implementation  
 
 ---
 
-## 🛠️ Technologies Used
-- Java
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-- MySQL
-- Maven
+## 🛠️ Tech Stack
+
+**Backend:**  
+Java, Spring Boot, Spring Data JPA  
+
+**Database:**  
+MySQL  
+
+**ORM Tool:**  
+Hibernate  
+
+**Build Tool:**  
+Maven  
+
+---
+
+## 🧠 What I Learned
+
+- How to build REST APIs using Spring Boot  
+- Understanding of layered architecture (Controller → Service → Repository)  
+- Database integration using JPA & Hibernate  
+- Handling exceptions using @ControllerAdvice  
+- Writing clean and structured backend code  
 
 ---
 
 ## 📂 Project Structure
-- `controller` - Handles REST APIs
-- `service` - Business logic
-- `repository` - Database access
-- `entity` - JPA entities
-- `exception` - Custom exceptions and global exception handler
+
+- `controller` → Handles API requests  
+- `service` → Contains business logic  
+- `repository` → Handles database operations  
+- `entity` → Represents database tables  
+- `exception` → Custom exceptions & global handler  
 
 ---
 
-## ▶️ How to Run the Project
+## ▶️ How to Run
 
-1. Clone the repository
-2. Import the project in Eclipse / IntelliJ
-3. Update `application.properties` with your MySQL username & password
-4. Run the main Spring Boot application
-5. Test APIs using Postman
+1. Clone the repository  
+2. Open in Eclipse / IntelliJ  
+3. Configure MySQL in `application.properties`  
+4. Run the Spring Boot application  
+5. Test APIs using Postman  
 
 ---
 
-## 📬 API Endpoints (Sample)
+## 🔗 API Endpoints
 
 - `POST /students` → Add student  
 - `GET /students/{id}` → Get student by ID  
@@ -58,4 +74,5 @@ This project follows a layered architecture and demonstrates best practices in S
 ---
 
 ## 👨‍💻 Author
-**Kshitij Madpuwar**
+
+Kshitij Madpuwar

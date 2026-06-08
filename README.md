@@ -1,4 +1,4 @@
-# 🎓 Student Management System (Spring Boot)
+# 🎓 StudentSphare Application (Core java, Spring Boot)
 
 ## 📌 Overview
 This is a backend project built using Spring Boot to manage student records through REST APIs.  
